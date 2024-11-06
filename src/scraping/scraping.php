@@ -50,13 +50,11 @@ function scrapePage($url, $client, $mysqli) {
 
 }
 
-require 'vendor/autoload.php';
+require '../../vendor/autoload.php';
 
-include ("conexao.php");
+include ("../database/db_connect.php");
 
 use Goutte\Client;
-
-use Symfony\Component\DomCrawler\Crawler;
 
 $client = new Client();
 

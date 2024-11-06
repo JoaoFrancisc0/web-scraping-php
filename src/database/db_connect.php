@@ -15,7 +15,7 @@ if ($mysqli->connect_errno) {
 // // SQL para criar a tabela de produtos
 // $sql_produtos = "CREATE TABLE IF NOT EXISTS produtos (
 //     id INT PRIMARY KEY AUTO_INCREMENT,
-//     nome VARCHAR(100) UNIQUE NOT NULL
+//     nome VARCHAR(255) UNIQUE NOT NULL
 // )";
 
 // // Executar o comando para criar a tabela de produtos
